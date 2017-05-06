@@ -1,0 +1,137 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    box-sizing: border-box;
+}
+body {
+     margin: 5%;
+}
+
+/*
+ LOGO AND NAMES
+*/
+
+.img-logo {
+    float: left;
+    width: 96px;
+    margin: 1% 0% 0% 1%;
+    
+}
+
+.div_names {
+  float: right;
+  font-weight: bold;
+  margin: 1% 1%;
+  font-size: 50px;
+}
+
+h1, h4 {
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.bottom_images {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.image-links {
+  text-transform: lowercase;
+ 
+}
+.col-md-12 > .horizontal-line {
+  border: 5px solid #7d97ad;
+  margin-bottom: 50px;
+}
+
+#center_img {
+  width: 100%;
+}
+
+.featured-work {
+    margin: 1% 0% 1% 0%;
+    padding-top: 2%;
+    color: #7d97ad;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+#appify,
+#sunflower,
+#bokeh {
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  color: #2d3c49;
+  margin-bottom: 2%;
+}
+
+a:link {
+    color: #2d3c49;
+    font-size: 1.1em;
+}
+
+/*
+ MEDIA QUERIES
+*/
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 100%;
+  }
+  #appify {
+    width: 100%;
+    order: 0;
+  }
+  #sunflower {
+    width: 100%;
+    order: 1;
+  }
+  #bokeh {
+    width: 100%;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    width: 100%;
+  }
+  #appify {
+    width: 50%;
+    order: 0;
+  }
+  #sunflower {
+    width: 50%;
+    order: 1;
+  }
+  #bokeh {
+    width: 50%;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 100%;
+  }
+  #appify {
+    width: 33.33%;
+    order: 0;
+  }
+  #sunflower {
+    width: 33.33%;
+    order: 1;
+  }
+  #bokeh {
+    width: 33.33%;
+    order: 2;
+  }
+}
+
